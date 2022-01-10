@@ -1,0 +1,135 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8125rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #f8f8fb;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+.dropdown-item, .btn , .form-control{
+    font-size: .8125rem;
+}
+
+.rounded-circle{
+    object-fit: cover;
+}
+
+@media (min-width: 992px)
+{
+    body[data-layout=horizontal][data-topbar=light] .topnav {
+        background-color: #24983f!important;
+    }
+
+    /* .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        justify-content: center!important;
+    } */
+
+}
+
+.topnav .navbar-nav .nav-link {
+    font-size: 14px;
+    position: relative;
+    padding: 1rem 1.3rem;
+    color: #545a6d;
+}
+
+.topnav .mm-active>i, .topnav .mm-active {
+    color: #fff!important;
+}
+
+.topnav .navbar-nav .dropdown.active>a {
+    color: #24983f;
+    background-color: transparent;
+}
+
+.avatar-md {
+    height: 12rem;
+    width: 8rem;
+}
+
+.thumbnail{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.h-90{
+    height: 90%!important;
+}
+
+.btn-rounded {
+    border-radius: 30px!important;
+}
+
+.nav-tabs-custom .nav-item .nav-link.active {
+    color: #495057;
+}
+
+.nav-tabs-custom .nav-item .nav-link::after {
+    content: "";
+    background: #24983f;
+    height: 2px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -1px;
+    -webkit-transition: all 250ms ease 0s;
+    transition: all 250ms ease 0s;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+.ng2-tag-input.ng2-tag-input--focused[_ngcontent-c4] {
+    border-bottom: 2px solid #24983f!important;
+}
+.ng2-tag-input.ng2-tag-input--focused[_ngcontent-c3] {
+    border-bottom: 2px solid #24983f!important;
+}
+
+tag[_ngcontent-c4]:not(.readonly):not(.tag--editing):focus {
+    background: #24983f!important;
+    color: #fff;
+    -webkit-box-shadow: 0 2px 3px 1px #d4d1d1;
+    box-shadow: 0 2px 3px 1px #d4d1d1;
+}
+tag[_ngcontent-c3]:not(.readonly):not(.tag--editing):focus {
+    background: #24983f!important;
+    color: #fff;
+    -webkit-box-shadow: 0 2px 3px 1px #d4d1d1;
+    box-shadow: 0 2px 3px 1px #d4d1d1;
+}
+
+.modal {
+    z-index: 9999!important;
+}
+
+@media (min-width: 992px){
+    body[data-layout=horizontal][data-topbar=light] .topnav .navbar-nav .nav-link {
+        color: rgb(255 255 255 / 31%);
+    }
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff!important;
+    text-decoration: none!important;
+    background-color: #24983f!important;
+}
+
+.topnav .navbar-nav .dropdown-item.active, .topnav .navbar-nav .dropdown-item:hover {
+    color: #24983f;
+}
+
+.topnav .navbar-nav .nav-item .nav-link.active {
+    color: #24983f;
+}
