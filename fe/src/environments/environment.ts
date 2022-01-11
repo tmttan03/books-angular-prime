@@ -4,13 +4,9 @@
 
 export const environment = {
   production: false,
-  pusher: {
-    key: 'df021952df2cbae64372',
-    cluster: 'ap1',
+  google: {
+    key: 'AIzaSyAcF7Pe6JaJKTKNiEqWi6n8zDUD3b_GzXM',
   },
-  stripe: {
-    key:'pk_test_yHHb0DcZ0ZkP1oLLAJxfWqyI00HH3wLgTf'
-  }
 };
 
 /*
